@@ -40,12 +40,12 @@ table {
 }
 
 /*******************************************************************************
-Theme Styles
+Theme Styles  #373737
 *******************************************************************************/
 
 body {
   box-sizing: border-box;
-  color:#373737;
+  color:#fff;
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
@@ -56,7 +56,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
+  color:#fff;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -98,7 +98,8 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #0F79D0;
+  /*color: #0F79D0;*/
+  color: #008080;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -372,7 +373,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #242425;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }

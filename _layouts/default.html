@@ -25,7 +25,7 @@
 
           {% if page.title %}
             <h1 id="project_title">{{ page.title | default: site.github.repository_name }}</h1>
-            <h3 id="project_tagline_second">
+            <h3 style="font-size: 16px; color:#848884; font-weight: 200;text-shadow: #111 0px 0px 10px;">
               <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 {{ page.date | date: date_format }}
@@ -56,13 +56,6 @@
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    {% include footer.html %}
   </body>
 </html>
