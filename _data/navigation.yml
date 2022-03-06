@@ -1,0 +1,10 @@
+- title: Home
+  url: /
+- title: Blogs
+  url: /blog.html
+- title: TryHackMe
+  url: /tryhackme.html
+- title: HackTheBox
+  url: /hackthebox.html
+- title: Others
+  url: /others.html

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gev
+title: Berkay Guclu
 email: berkayguclu09@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog page. In here I have some walkthroughs, writeups and documentations for what I learned.
@@ -26,11 +26,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://berkayguclu.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brkyguclu
 github_username: Geviktor
+github: [metadata]
+
+sass:
+  load_paths:
+    - _sass
+    - /usr/lib/ruby/gems/2.7.0/gems/bootstrap-4.3.1/assets/stylesheets
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
