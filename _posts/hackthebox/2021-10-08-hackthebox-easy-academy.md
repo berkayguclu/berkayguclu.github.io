@@ -2,6 +2,7 @@
 layout: post
 title:  "HackTheBox/Academy"
 author: "Berkay Guclu"
+lang: tr
 categories: hackthebox easy
 permalink: /:categories/academy
 ---

@@ -2,6 +2,7 @@
 layout: post
 title:  "TryHackMe/Anonforce"
 author: "Berkay Guclu"
+lang: en
 categories: tryhackme easy
 permalink: /:categories/anonforce
 ---
