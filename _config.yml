@@ -41,6 +41,8 @@ plugins:
   - jekyll-sitemap
 
 
+# Google Analytics
+google_analytics: UA-222189487-1
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
